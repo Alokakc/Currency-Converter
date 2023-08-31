@@ -1,0 +1,28 @@
+img {
+    height: 55px;
+    width: 110px;
+}
+
+.abs-1 {
+    margin-top: 60px;
+}
+
+.abs-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abs-3 {
+    height: 6vh;
+}
+
+@media (max-width: 1200px) {
+    .abs-3 {
+        height: 4vh;
+    }
+}
+
+.abs-4 {
+    margin-top: -40px;
+}
